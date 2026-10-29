@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    box-shadow: 8px 1px 40px;
+}
+.pixer {
+}
+.lists {
+    display: flex;
+    align-items: center;
+}
+.header-p {
+    display: flex;
+    align-items: center;
+    p {
+        width: 98;
+        height: 56;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        padding: 16px;
+
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 15px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #000000;
+    }
+}
+.number {
+    background-color: rgb(0, 186, 252);
+    width: 159;
+    height: 40;
+    top: 8px;
+    left: 1041px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    color: #ffffff;
+}
+/* main */
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+.main-p {
+    /* flex-direction: column; */
+    width: 470px;
+    height: 224px;
+    top: 97px;
+    left: 100px;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 16px;
+}
+.main-img {
+}
+.h3 {
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 30px;
+    leading-trim: NONE;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #000000;
+    padding: 8px 0 8px 0;
+}
+.main-inner-p {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding: 8px 0 8px 0;
+}
+.main-button {
+    width: 232;
+    height: 40;
+    angle: 0 deg;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    background-color: #00bafc;
+    font-family: Open Sans;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    border: none;
+    padding: 8px 0 8px 0;
+}
+.main-img-1 {
+    position: relative;
+}
+
+.main-img-2 {
+    position: absolute;
+    left: 1160px;
+    bottom: 1px;
+    top: 250px;
+}
+/* section */
+.section {
+}
+.section-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 290px;
+}
+.sectin-h1 {
+    font-family: Open Sans;
+    font-weight: 700px;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+}
+.section-p {
+    font-family: Open Sans;
+    font-weight: 400px;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    width: 650px;
+}
+.section-box {
+}
+.box-1 {
+    margin: 0 35px;
+    box-shadow: 1px 1px 10px;
+    padding: 24px 58px 20px 58px;
+    img {
+    }
+    .strong {
+        margin: 8px 0;
+        font-family: Open Sans;
+        font-weight: 700;
+        font-size: 20px;
+        leading-trim: NONE;
+        line-height: 130%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #000000;
+    }
+    p {
+        margin: 8px 0 24px 0;
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #000000;
+    }
+}
+.strong {
+}
+.section-main-1 {
+    margin: 48px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-main-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sm {
+}
+.section-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 16px 473px 56px 473px;
+    button {
+        background-color: #00bafc;
+        color: #ffffff;
+        border: none;
+        width: 167px;
+        height: 40px;
+        border-radius: 5px;
+        font-family: Open Sans;
+        font-weight: 700;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+    }
+    a {
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 16px;
+        leading-trim: NONE;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-offset: 0%;
+        text-decoration-thickness: 0%;
+        color: #00bafc;
+    }
+}
